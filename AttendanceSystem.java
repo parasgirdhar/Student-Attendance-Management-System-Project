@@ -33,7 +33,7 @@ public class AttendanceSystem {
             ps.setString(2, course);
             ps.executeUpdate();
 
-            System.out.println("✅ Student Added!");
+            System.out.println("Student Added");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -60,7 +60,7 @@ public class AttendanceSystem {
             ps.setString(3, status);
             ps.executeUpdate();
 
-            System.out.println("✅ Attendance Marked!");
+            System.out.println(" Attendance Marked");
         } catch (Exception e) {
             e.printStackTrace();
         }
